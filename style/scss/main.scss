@@ -16,12 +16,39 @@ main {
 
 .card {
   width: clamp(320px, 50%, 360px);
-  height: 550px;
+  height: 530px;
   background-color: $neutral-dark-grey;
   border-radius: 15px;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
+
+.card-picture {
+  img {
+    border-radius: 50%;
+  }
+}
+
+.card-name {
+  color: $neutral-white;
+  font-size: 1.5rem;
+  font-weight: $font-weight-regular;
+  margin: 20px 0 10px 0;
+}
+
+.card-location {
+  color: $primary-green;
+  font-size: .75rem;
+  font-weight: $font-weight-medium;
+}
+
+.card-quote {
+  color: $neutral-white;
+  font-size: .7rem;
+  margin: 30px 0 20px 0;
+}
+
+
 
 .card-links {
   ul {
@@ -33,16 +60,25 @@ main {
     li {
       background-color: $neutral-grey;
       list-style: none;
-      padding: 12px;
       border-radius: 10px;
       width: 270px;
+
+      &:hover {
+        background-color: $primary-green;
+
+        a {
+          color: $neutral-off-black;
+        }
+      }
     }
 
     a {
-      color: $neutral-white;
       font-size: .8rem;
       font-weight: $font-weight-medium;
       text-decoration: none;
+      color: $neutral-white;
+      display: block;
+      padding: 14px;
     }
   }
 }
