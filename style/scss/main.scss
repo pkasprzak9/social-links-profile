@@ -82,3 +82,18 @@ main {
     }
   }
 }
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: $neutral-white;
+  font-size: .7rem;
+
+  a {
+    color: $primary-green;
+    text-decoration: none;
+  }
+}

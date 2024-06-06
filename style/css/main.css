@@ -389,4 +389,17 @@ main {
   color: hsl(0, 0%, 100%);
   display: block;
   padding: 14px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.7rem;
+}
+footer a {
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
