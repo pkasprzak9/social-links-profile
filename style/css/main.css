@@ -331,11 +331,11 @@ main {
 
 .card {
   width: clamp(320px, 50%, 360px);
-  height: 530px;
+  height: 550px;
   background-color: hsl(0, 0%, 12%);
   border-radius: 15px;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 
 .card-picture img {
@@ -374,7 +374,7 @@ main {
   background-color: hsl(0, 0%, 20%);
   list-style: none;
   border-radius: 10px;
-  width: 270px;
+  width: 280px;
 }
 .card-links ul li:hover {
   background-color: hsl(75, 94%, 57%);

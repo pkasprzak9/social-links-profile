@@ -16,11 +16,11 @@ main {
 
 .card {
   width: clamp(320px, 50%, 360px);
-  height: 530px;
+  height: 550px;
   background-color: $neutral-dark-grey;
   border-radius: 15px;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 
 .card-picture {
@@ -61,7 +61,7 @@ main {
       background-color: $neutral-grey;
       list-style: none;
       border-radius: 10px;
-      width: 270px;
+      width: 280px;
 
       &:hover {
         background-color: $primary-green;
