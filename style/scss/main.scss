@@ -6,6 +6,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: $neutral-off-black;
+  // box-sizing: border-box;
 }
 
 main {
@@ -14,5 +15,34 @@ main {
 }
 
 .card {
+  width: clamp(320px, 50%, 360px);
+  height: 550px;
   background-color: $neutral-dark-grey;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-links {
+  ul {
+    @include flex-center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0px;
+    li {
+      background-color: $neutral-grey;
+      list-style: none;
+      padding: 12px;
+      border-radius: 10px;
+      width: 270px;
+    }
+
+    a {
+      color: $neutral-white;
+      font-size: .8rem;
+      font-weight: $font-weight-medium;
+      text-decoration: none;
+    }
+  }
 }
